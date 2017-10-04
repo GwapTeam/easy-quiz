@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>クイズゲーム</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<h1>クイズゲーム</h1>
+<button onclick="start()">クイズ開始！</button>
+
+<script>
+    function start() {
+        alert("クイズゲーム開始！");
+
+        var name;
+        var ans;
+        var count = 0;
+
+        name = prompt("名前を教えてね!");
+        ans  = prompt("見出し1を表示するタグは？");
+
+        if (ans == "h1") {
+            alert("正解!");
+            count++;
+        } else {
+            alert("残念!");
+            alert("正解は h1 でした！");
+        }
+
+        ans = prompt("テーブルの列を表示するタグは？");
+        if (ans == "tr") {
+            alert("正解!");
+            count++;
+        } else {
+            alert("残念!")
+            alert("正解は tr でした！")
+        }
+
+        ans = prompt("画像を表示するタグは？");
+        if (ans == "img") {
+            alert("正解!");
+            count++;
+        } else {
+            alert("残念!");
+            alert("正解は img でした！");
+        }
+
+        alert(name + "さんの結果は３問中" + count + "問でした！");
+        document.body.append(name + "さんは" + count + "問正解!");
+    }
+
+</script>
+
+</body>
+</html>
+
