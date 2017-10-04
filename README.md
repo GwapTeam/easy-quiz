@@ -1,4 +1,4 @@
-# homepage
+# easy-quiz
 https://github.com/GwapTeam/easy-quiz
 
 ## Overview
