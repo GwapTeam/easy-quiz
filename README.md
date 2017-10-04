@@ -8,6 +8,7 @@ Open html file using chrome.
 ### files
 ```
 easy-quiz
+
 ├── README.md
 ├── complete-easy-quiz.html(Finished code)
 ├── easy-quiz.html(First code)
