@@ -9,12 +9,9 @@ Open html file using chrome.
 ```
 easy-quiz
 ├── README.md
-├── .html(Finished code)
-├── css
-│   ├── .css(Student unedited)
-│   └── homepage(Student editing)
-├── homepage.html(First code)
-└── img/
+├── complete-easy-quiz.html(Finished code)
+├── easy-quiz.html(First code)
+└── extra-easy-quiz.html(Extra code)
 ```
 
 ## Example
