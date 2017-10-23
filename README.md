@@ -23,7 +23,7 @@ $ git clone -b master -j8 git@github.com:GwapTeam/homepage.git
 
 _Branch: `development`_
 ```bash
-$ git clone -b development -j8 git@github.com:GwapTeam/homepage.git
+$ git clone -b develop -j8 git@github.com:GwapTeam/homepage.git
 ```
 
 _Branch: `feature`_
@@ -94,7 +94,7 @@ Tab Space         : 4space
 
 Use [ECMAScript5](https://www.ecma-international.org/ecma-262/6.0/)
 
-Tab Space     : 2space
+Tab Space     : 4space
 String literal: double quote
 
 Case: Variable declaration
